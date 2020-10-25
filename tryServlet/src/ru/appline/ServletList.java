@@ -95,7 +95,7 @@ public class ServletList extends HttpServlet {
 		JsonObject jobj = gson.fromJson(String.valueOf(jb), JsonObject.class);
 		request.setCharacterEncoding("UTF-8");
 		
-		 double id = jobj.get("id").getAsDouble();
+		 int id = jobj.get("id").getAsInt();
 		 
 		if(id==0) {
 			
@@ -109,7 +109,7 @@ public class ServletList extends HttpServlet {
 				
 			}else {
 				
-				//pw.print(gson.toJson(model.getFromList().get(id)));
+				pw.print(gson.toJson(model.getFromList().get(id)));
 			}
 			
 		}else {

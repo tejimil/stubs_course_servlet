@@ -21,6 +21,8 @@ out.print(model.getFromList().size());
 	</label>
 	<button type="submit">Поиск</button>
 </form>
-<a href="addUser.html">Создать нового пользователя</a>
+<a href="addUser.html">Создать нового пользователя</a><br/>
+<a href="delUser.html">Удалить пользователя</a><br/>
+<a href="updateUser.html">Обновить данные пользователя</a>
 </body>
 </html>
